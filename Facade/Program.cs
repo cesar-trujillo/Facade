@@ -1,10 +1,8 @@
-﻿using System;
-
-public class Facade
+﻿public class Program
 {
     public static void Main()
     {
-        Camara camara = new Camara();
-        camara.encender();
+        SistemaDeSeguridad programa = new SistemaDeSeguridad();
+        programa.activarSistema();
     }
 }
